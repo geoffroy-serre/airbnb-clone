@@ -11,7 +11,7 @@ function Header() {
       </div>
 
       {/* middle */}
-      <div className="flex items-center border-2 py-2 rounded-full md:shadow-sm md:border-2">
+      <div className="flex items-center py-2 rounded-full md:shadow-sm md:border-2">
         <input className="pl-5 bg-transparent flex-grow text-sm text-gray-600 placeholder-gray-400" type="text" placeholder="Start your search" />
         <SearchIcon className="hidden md:inline-flex h-8 bg-red-400 text-white rounded-full p-2 cursor-pointer md:mx-2" />
       </div>
