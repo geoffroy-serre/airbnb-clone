@@ -17,6 +17,7 @@ function Header() {
       </div>
 
       {/* right */}
+
       <div className="flex items-center justify-end space-x-4 text-gray-500 ">
         <p className="hidden md:inline cursor-pointer">Become a host</p>
         <GlobeAltIcon className="h-6" />
