@@ -13,11 +13,7 @@ export default function Home({ exploreData, cardsData }) {
         <title>AirBnb Clone Challenge</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {/* Header */}
       <Header />
-
-      {/* Banner */}
       <Banner />
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
