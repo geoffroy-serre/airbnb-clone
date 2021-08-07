@@ -32,7 +32,7 @@ function Header({ placeholder }) {
     router.push({
       //intentional non camelcase
       pathname: '/search',
-      //using query parameter allow to have the search url, so user can share it if he want
+      //using query parameter allow to have the search url, so user can share it if he wantand we also get the search parameters
       query: {
         location: searchInput,
         startDate: startDate.toISOString(),

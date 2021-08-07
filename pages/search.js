@@ -3,6 +3,7 @@ import { useRouter } from 'next/dist/client/router';
 import Header from '../components/Header';
 import InfoCard from '../components/InfoCard';
 import Footer from './../components/Footer';
+import Map from './../components/Map';
 
 function Search({ searchResults }) {
   const router = useRouter();
@@ -10,8 +11,6 @@ function Search({ searchResults }) {
   const formattedStartDate = format(new Date(startDate), 'dd MMMM yy');
   const formattedEndDate = format(new Date(endDate), 'dd MMMM yy');
   const range = `${formattedStartDate} to ${formattedEndDate}`;
-
-  console.log(startDate);
 
   return (
     <div className="">
@@ -35,6 +34,9 @@ function Search({ searchResults }) {
               <InfoCard key={img} img={img} location={location} title={title} description={description} star={star} price={price} total={total} />
             ))}
           </div>
+        </section>
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
+          <Map searchResults={searchResults} />
         </section>
       </main>
       <Footer />
