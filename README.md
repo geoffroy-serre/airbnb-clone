@@ -1,3 +1,8 @@
+# Project Info
+
+This project is a clone demo. Not a full functionnal clone. Search will always give you the same result. But the map and pin on it are accurante to the location retrieve (in json file).
+<a href="https://airbnb-clone-tawny.vercel.app/">LIVE DEMO<a/>
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
